@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{762A1474-A2B6-4964-90CB-F1C1369AAE2A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\BariaServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ClienteFMX\FMXCliente.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BariaServer">
+        <MSBuild Projects="Server\BariaServer.dproj"/>
+    </Target>
+    <Target Name="BariaServer:Clean">
+        <MSBuild Projects="Server\BariaServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BariaServer:Make">
+        <MSBuild Projects="Server\BariaServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXCliente">
+        <MSBuild Projects="ClienteFMX\FMXCliente.dproj"/>
+    </Target>
+    <Target Name="FMXCliente:Clean">
+        <MSBuild Projects="ClienteFMX\FMXCliente.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXCliente:Make">
+        <MSBuild Projects="ClienteFMX\FMXCliente.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BariaServer;FMXCliente"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BariaServer:Clean;FMXCliente:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BariaServer:Make;FMXCliente:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

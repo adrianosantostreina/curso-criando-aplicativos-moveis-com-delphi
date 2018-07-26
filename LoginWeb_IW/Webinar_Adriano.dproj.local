@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/10 23:13:20.000.319,=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\FullCalendar2\Unit5.pas</Transaction>
+    <Transaction>2018/07/10 23:13:25.000.490,=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\FullCalendar2\UserSessionUnit.pas</Transaction>
+    <Transaction>2018/07/10 23:13:25.000.428,=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\FullCalendar2\ServerController.pas</Transaction>
+    <Transaction>2018/07/10 23:13:42.000.023,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\FullCalendar2\FullCalendar2.dproj=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\FullCalendar2\FullCalendar.dproj</Transaction>
+    <Transaction>2018/07/10 23:17:16.000.737,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\frmAgenda.pas=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\Unit5.pas</Transaction>
+    <Transaction>2018/07/10 23:17:16.000.737,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\frmAgenda.dfm=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\Unit5.dfm</Transaction>
+    <Transaction>2018/07/10 23:44:50.000.853,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\u_frmAgenda.dfm=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\frmAgenda.dfm</Transaction>
+    <Transaction>2018/07/10 23:44:50.000.853,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\u_frmAgenda.pas=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\001 - FullCalendar\frmAgenda.pas</Transaction>
+    <Transaction>2018/07/17 08:15:44.000.444,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\FullCalendar.dproj=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\Webinar_Adriano.dproj</Transaction>
+    <Transaction>2018/07/17 08:20:07.000.024,=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\u_frmLogin.pas</Transaction>
+    <Transaction>2018/07/17 12:42:37.049,=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\Unit1.pas</Transaction>
+    <Transaction>2018/07/17 12:42:57.703,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\u_frmPrincipal.pas=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\Unit1.pas</Transaction>
+    <Transaction>2018/07/17 12:42:57.703,C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\u_frmPrincipal.dfm=C:\Marcelo Giratto - Cursos Online\Dicas Intraweb\Webinar Adriano Santos Dispositivo Móveis\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

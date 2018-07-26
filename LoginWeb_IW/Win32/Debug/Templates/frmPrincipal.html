@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Login - App Restaurantes Móveis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        body { 
+          background: url(imagens/Fundo.jpeg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        .panel-default {
+        opacity: 0.9;
+        margin-top:30px;
+        }
+        .form-group.last { margin-bottom:0px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2" style="text-align: center">
+            <h2>Dados do Usuário Logado</h2>
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="form-group">
+                <label class="col-sm-5 control-label">
+                    Nome do Usuário</label>
+                <div class="col-sm-7">
+                    {%NomeUsuario%}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="form-group">
+                <label class="col-sm-5 control-label">
+                    Email do Usuário</label>
+                <div class="col-sm-7">
+                    {%EmailUsuario%}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="form-group">
+                <label class="col-sm-5 control-label">
+                    Tipo do Usuário</label>
+                <div class="col-sm-7">
+                    {%TipoUsuario%}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="form-group">
+                <label class="col-sm-5 control-label">
+                    Nome do Estabelecimento</label>
+                <div class="col-sm-7">
+                    {%NomeEstab%}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="form-group">
+                <label class="col-sm-5 control-label">
+                    Apelido Estabelecimento</label>
+                <div class="col-sm-7">
+                    {%ApelidoEstab%}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <br />
+            <br />
+            <br />
+            <br />
+            <button type="button" id="BTNENCERRAR" class="btn btn-danger btn-sm btn-block">Encerrar Acesso ao Portal</button>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <p class="navbar-text">Feito por: <a href="http://www.marcelogirattocursos.com.br">Marcelo Giratto Cursos</a></p>
+    </nav>            
+</div>
+</body>
+</html>

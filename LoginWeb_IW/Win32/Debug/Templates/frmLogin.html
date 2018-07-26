@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Login - App Restaurantes Móveis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        body { 
+          background: url(imagens/Fundo.jpeg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        .panel-default {
+        opacity: 0.9;
+        margin-top:30px;
+        }
+        .form-group.last { margin-bottom:0px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-lock"></span> Login Acesso (App Restaurantes Móveis)</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">
+                            Usuário</label>
+                        <div class="col-sm-9">
+                            {%Usuario%}
+<!--                            <input type="email" class="form-control" id="inputEmail3" placeholder="CPF, CNPJ ou Usuário" required>-->
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">
+                            Senha</label>
+                        <div class="col-sm-9">
+                            {%Senha%}
+<!--                            <input type="password" class="form-control" id="inputPassword3" placeholder="Senha de Acesso" required>-->
+                        </div>
+                    </div>
+                    <div class="form-group last">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <button type="button" id="BTNCONFIRMAR" class="btn btn-primary btn-sm btn-block">Acessar Portal</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="panel-footer" align="center">
+                    Feito por: <a href="http://www.marcelogirattocursos.com.br">Marcelo Giratto Cursos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

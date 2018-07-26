@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/01/10 21:18:18.000.212,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\FormUnit1.pas</Transaction>
+    <Transaction>2017/01/10 21:18:25.000.209,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/01/10 21:18:26.000.929,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\WebModuleUnit1.pas</Transaction>
+    <Transaction>2017/01/10 21:18:26.000.051,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.996,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\json2-min.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.677,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\callbackframework.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.432,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\base64.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.589,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\json2.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.528,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.907,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\base64-min.js</Transaction>
+    <Transaction>2017/01/10 21:18:31.000.819,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\serverfunctions.js</Transaction>
+    <Transaction>2017/01/10 21:18:32.000.208,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\callbackframework-min.js</Transaction>
+    <Transaction>2017/01/10 21:18:32.000.074,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.194,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\connection.js</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.736,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.951,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.874,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\templates\reversestring.html</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.475,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2017/01/10 21:18:33.000.625,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\css\main.css</Transaction>
+    <Transaction>2017/01/10 21:18:34.000.219,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\images\expand.png</Transaction>
+    <Transaction>2017/01/10 21:18:34.000.187,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\images\collapse.png</Transaction>
+    <Transaction>2017/01/10 21:18:50.000.246,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\FormUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\frmServerUnt.pas</Transaction>
+    <Transaction>2017/01/10 21:18:50.000.246,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\FormUnit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\frmServerUnt.dfm</Transaction>
+    <Transaction>2017/01/10 21:19:20.000.568,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerContainerUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\scContainerUnt.pas</Transaction>
+    <Transaction>2017/01/10 21:19:20.000.568,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerContainerUnit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\scContainerUnt.dfm</Transaction>
+    <Transaction>2017/01/10 21:19:38.000.015,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerMethodsUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\smPacienteUnt.pas</Transaction>
+    <Transaction>2017/01/10 21:19:38.000.015,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\ServerMethodsUnit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\smPacienteUnt.dfm</Transaction>
+    <Transaction>2017/01/10 21:19:54.000.047,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\WebModuleUnit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\wmWebModuleUnt.dfm</Transaction>
+    <Transaction>2017/01/10 21:19:54.000.047,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\WebModuleUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\wmWebModuleUnt.pas</Transaction>
+    <Transaction>2017/01/10 21:28:19.000.884,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\Baria.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Baria\BariaServer.dproj</Transaction>
+    <Transaction>2017/01/27 15:37:13.000.073,=C:\Program Files (x86)\Embarcadero\Studio\18.0\source\data\datasnap\Datasnap.DSClientRest.pas</Transaction>
+    <Transaction>2017/01/27 15:37:34.000.270,C:\Program Files (x86)\Embarcadero\Studio\18.0\source\data\datasnap\Datasnap.DSClientRest.pas=</Transaction>
+    <Transaction>2017/01/27 15:38:30.000.909,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Baria\Server\Datasnap.DSClientRest.pas</Transaction>
+    <Transaction>2017/01/30 13:44:44.000.868,C:\Users\lande\Documents\Embarcadero\Studio\Projects\Baria\Server\Datasnap.DSClientRest.pas=</Transaction>
+    <Transaction>2017/02/09 12:37:12.000.820,C:\Users\lande\Documents\Embarcadero\Studio\Projects\Baria\Server\BariaServer.dproj=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Baria\Server\BariatricoServer.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

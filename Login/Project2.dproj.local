@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/01/05 22:23:11.000.267,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/01/20 13:31:09.000.224,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/01/28 10:04:28.000.980,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/03/09 23:38:19.000.223,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/03/23 22:22:30.000.799,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/07/14 09:35:54.000.411,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/07/16 12:30:12.000.536,=C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/07/16 13:05:10.000.165,C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\renat\Documents\AulaExtraWebNario\Unit2.fmx</Transaction>
+    <Transaction>2018/07/16 13:05:10.000.165,C:\Users\renat\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\renat\Documents\AulaExtraWebNario\Unit2.pas</Transaction>
+    <Transaction>2018/07/16 13:05:11.000.499,C:\Users\renat\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\renat\Documents\AulaExtraWebNario\Project2.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="Nexus_5X_API_25"/>
+	</ActiveMobileDevice>
+</BorlandProject>

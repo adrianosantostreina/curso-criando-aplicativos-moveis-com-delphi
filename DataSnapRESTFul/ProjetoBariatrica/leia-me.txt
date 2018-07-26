@@ -1,0 +1,14 @@
+Olá.
+Este exemplo foi construído utilizando banco de dados Firebird 2.5 (Sistema utilizado na clinica utilizava essa ferramenta)
+Restaure o arquivo ACBar.fbk para um novo banco de dados, aponte a conexão dentro do sistema para esse novo banco de dados e pode iniciar os testes.
+
+Compile o Server e Execute, em seguida faça o mesmo para a app Cliente.
+
+Há esse vídeo que pode auxiliar no entendimento:
+https://www.youtube.com/watch?v=tf-wOBEUU-g
+
+Aproveita e assina ao canal aí!!!
+
+Muito obrigado,
+
+Landerson Gomes.

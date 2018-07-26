@@ -1,0 +1,456 @@
+object frmTelaTeste: TfrmTelaTeste
+  Left = 0
+  Top = 0
+  Caption = 'REST CLIENTE FMX'
+  ClientHeight = 480
+  ClientWidth = 715
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Left
+    Size.Width = 321.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 53
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TImageListItemBottomDetailAppearance'
+      ItemEditAppearanceClassName = 'TImageListItemBottomDetailShowCheckAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Transparent = True
+      Align = Client
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 399.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      StyleLookup = 'listviewstyle'
+      SearchVisible = True
+      SelectionCrossfade = True
+      PullToRefresh = True
+      PullRefreshWait = True
+    end
+    object ToolBar1: TToolBar
+      Size.Width = 321.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label3: TLabel
+        Align = Center
+        AutoSize = True
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 3.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Live Bind'
+        TabOrder = 0
+      end
+      object SpeedButton1: TSpeedButton
+        Align = Right
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 271.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'refreshtoolbuttonbordered'
+        OnClick = SpeedButton1Click
+      end
+    end
+    object NavigatorBindSourceDB1: TBindNavigator
+      Align = Bottom
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 453.000000000000000000
+      Size.Width = 311.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      DataSource = BindSourceDB1
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+      xRadius = 4.000000000000000000
+      yRadius = 4.000000000000000000
+    end
+  end
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 394.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 54
+    object ToolBar2: TToolBar
+      Size.Width = 394.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Center
+        AutoSize = True
+        StyledSettings = [Family, FontColor]
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Feito a m'#227'o'
+        TabOrder = 0
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 48.000000000000000000
+      Size.Width = 394.000000000000000000
+      Size.Height = 129.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ListBox1: TListBox
+        Align = Client
+        Size.Width = 394.000000000000000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        GroupingKind = Grouped
+        Viewport.Width = 390.000000000000000000
+        Viewport.Height = 77.000000000000000000
+        object ListBoxItem1: TListBoxItem
+          Size.Width = 390.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Caso'
+          object Edit1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Scale
+            TabOrder = 0
+            KeyboardType = NumberPad
+            ReturnKeyType = Go
+            Position.X = 70.000000000000000000
+            Position.Y = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 95.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            OnKeyDown = Edit1KeyDown
+          end
+        end
+        object ListBoxItem2: TListBoxItem
+          Position.Y = 33.000000000000000000
+          Size.Width = 390.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Nome'
+          object Edit2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Scale
+            TabOrder = 0
+            Position.X = 70.000000000000000000
+            Position.Y = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 313.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object ToolBar3: TToolBar
+        Align = Bottom
+        Position.Y = 81.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout4: TLayout
+          Align = Center
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 2.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 2.000000000000000000
+          Size.Width = 326.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object spbGet: TSpeedButton
+            StaysPressed = True
+            GroupName = 'REST'
+            Hint = 'Lista'
+            Position.X = 3.000000000000000000
+            Position.Y = 5.000000000000000000
+            ParentShowHint = False
+            ShowHint = True
+            StyleLookup = 'segmentedbuttonleft'
+            Text = 'Get'
+            OnClick = spbGetClick
+          end
+          object spbPut: TSpeedButton
+            StaysPressed = True
+            GroupName = 'REST'
+            Hint = 'Insere'
+            Position.X = 163.000000000000000000
+            Position.Y = 5.000000000000000000
+            ParentShowHint = False
+            ShowHint = True
+            StyleLookup = 'segmentedbuttonmiddle'
+            Text = 'Put'
+            OnClick = spbPutClick
+          end
+          object spbPost: TSpeedButton
+            StaysPressed = True
+            GroupName = 'REST'
+            Hint = 'Atualiza'
+            Position.X = 83.000000000000000000
+            Position.Y = 5.000000000000000000
+            ParentShowHint = False
+            ShowHint = True
+            StyleLookup = 'segmentedbuttonmiddle'
+            Text = 'Post'
+            OnClick = spbPostClick
+          end
+          object spbDelete: TSpeedButton
+            StaysPressed = True
+            GroupName = 'REST'
+            Hint = 'Apaga'
+            Position.X = 243.000000000000000000
+            Position.Y = 5.000000000000000000
+            ParentShowHint = False
+            ShowHint = True
+            StyleLookup = 'segmentedbuttonright'
+            Text = 'Delete'
+            OnClick = spbDeleteClick
+          end
+        end
+      end
+    end
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      ReadOnly = True
+      Align = Client
+      CanFocus = False
+      Size.Width = 394.000000000000000000
+      Size.Height = 303.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnDblClick = Memo1DblClick
+      Viewport.Width = 390.000000000000000000
+      Viewport.Height = 299.000000000000000000
+    end
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 'http://localhost:8080/datasnap/rest'
+    ContentType = 'application/json'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 32
+    Top = 120
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        Kind = pkURLSEGMENT
+        name = 'id'
+        Options = [poAutoCreated]
+        Value = '4071'
+      end>
+    Resource = 'tpaciente/Paciente/{id}'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 152
+    Top = 120
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'text/html'
+    RootElement = 'result[0]'
+    Left = 240
+    Top = 120
+  end
+  object FDMemTable1: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'CASO'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'NOME'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'ALTURA'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'PESOATUAL'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'PESOINICIAL'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'PESOIDEAL'
+        DataType = ftWideString
+        Size = 255
+      end
+      item
+        Name = 'IMC'
+        DataType = ftWideString
+        Size = 255
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 112
+    Top = 208
+    object FDMemTable1CASO: TWideStringField
+      FieldName = 'CASO'
+      Size = 255
+    end
+    object FDMemTable1NOME: TWideStringField
+      FieldName = 'NOME'
+      Size = 255
+    end
+    object FDMemTable1ALTURA: TWideStringField
+      FieldName = 'ALTURA'
+      Size = 255
+    end
+    object FDMemTable1PESOATUAL: TWideStringField
+      FieldName = 'PESOATUAL'
+      Size = 255
+    end
+    object FDMemTable1PESOINICIAL: TWideStringField
+      FieldName = 'PESOINICIAL'
+      Size = 255
+    end
+    object FDMemTable1PESOIDEAL: TWideStringField
+      FieldName = 'PESOIDEAL'
+      Size = 255
+    end
+    object FDMemTable1IMC: TWideStringField
+      FieldName = 'IMC'
+      Size = 255
+    end
+  end
+  object RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter
+    Active = True
+    Dataset = FDMemTable1
+    FieldDefs = <>
+    Response = RESTResponse1
+    Left = 112
+    Top = 152
+  end
+  object RESTClient3: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 'http://localhost:8080/datasnap/rest'
+    ContentType = 'application/json'
+    Params = <>
+    HandleRedirects = True
+    RaiseExceptionOn500 = False
+    Left = 352
+    Top = 192
+  end
+  object RESTRequest3: TRESTRequest
+    Client = RESTClient3
+    Method = rmPOST
+    Params = <
+      item
+        Kind = pkREQUESTBODY
+        name = 'JPaciente'
+        Options = [poDoNotEncode]
+        Value = '{"CASO":"4070","NOME":"ZECA"}'
+        ContentType = ctAPPLICATION_JSON
+      end>
+    Resource = 'TPaciente/Paciente'
+    Response = RESTResponse3
+    SynchronizedEvents = False
+    Left = 552
+    Top = 192
+  end
+  object RESTResponse3: TRESTResponse
+    ContentType = 'text/html'
+    Left = 456
+    Top = 192
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 44
+    Top = 309
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'NOME'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'CASO'
+          ControlMemberName = 'Detail'
+          CustomFormat = #39'Caso: '#39' + %s'
+        end
+        item
+          SourceMemberName = 'NOME'
+          ControlMemberName = 'Text'
+          CustomFormat = #39'Nome : '#39' + UpperCase(%s)'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'NOME'
+      Component = SpeedButton1
+      ComponentProperty = 'Text'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTable1
+    ScopeMappings = <>
+    Left = 168
+    Top = 312
+  end
+end
